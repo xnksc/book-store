@@ -1,0 +1,52 @@
+[
+  {
+    "isbn": "9780143038412",
+    "title": "Sapiens: A Brief History of Humankind",
+    "subtitle": "From the Beginning of Time to the Present",
+    "author": "Yuval Noah Harari",
+    "price": 540,
+    "description": "Sapiens explores the history of humankind, tracing our evolution from hunter-gatherers to modern society and examining the significant forces that have shaped our world.",
+    "tags": ["history", "humanities", "sociology"],
+    "date": "2011-02-01"
+  },
+  {
+    "isbn": "9780500203496",
+    "title": "The Story of Art",
+    "subtitle": "A Global View",
+    "author": "E.H. Gombrich",
+    "price": 745,
+    "description": "The Story of Art is a compelling introduction to the world of art, covering major artistic movements and figures from prehistoric times to the present day.",
+    "tags": ["art", "culture", "education"],
+    "date": "1995-03-01"
+  },
+  {
+    "isbn": "9780134639928",
+    "title": "Mathematics: A Very Short Introduction",
+    "subtitle": "An Overview of Mathematical Ideas",
+    "author": "Timothy Gowers",
+    "price": 260,
+    "description": "This book provides a concise overview of mathematical ideas, explaining concepts ranging from basic arithmetic to advanced calculus in an accessible manner.",
+    "tags": ["mathematics", "science", "education"],
+    "date": "2015-09-01"
+  },
+  {
+    "isbn": "9780743482799",
+    "title": "The Great Gatsby",
+    "subtitle": "A Novel",
+    "author": "F. Scott Fitzgerald",
+    "price": 329,
+    "description": "The Great Gatsby tells the story of Jay Gatsby, a wealthy man whose love for the beautiful Daisy Buchanan leads him into a world of obsession and tragedy during the Jazz Age.",
+    "tags": ["literature", "fiction", "classics"],
+    "date": "1925-04-10"
+  },
+  {
+    "isbn": "9781400033416",
+    "title": "The Diary of a Young Girl",
+    "subtitle": "By Anne Frank",
+    "author": "Anne Frank",
+    "price": 430,
+    "description": "The Diary of a Young Girl is the poignant account of Anne Frank, a Jewish teenager hiding from the Nazis during World War II, as she documents her thoughts and experiences.",
+    "tags": ["history", "memoir", "war"],
+    "date": "1995-06-01"
+  }
+]
