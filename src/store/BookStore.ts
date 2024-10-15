@@ -1,7 +1,6 @@
-// src/store.ts
 import { create } from "zustand";
 import { Book } from "../types";
-import booksData from "../data/books.json"; // Предполагаем, что у вас есть файл data.json с данными
+import booksData from "../data/books.json";
 
 interface Store {
   selectedTags: string[];
@@ -23,5 +22,5 @@ export const useStore = create<Store>((set) => ({
   setSortBy: (sortBy) => set({ sortBy }),
   sortDirection: "asc",
   setSortDirection: (direction) => set({ sortDirection: direction }),
-  books: booksData, // Загружаем данные книг из JSON
+  books: booksData, 
 }));

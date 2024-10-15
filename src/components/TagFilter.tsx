@@ -5,9 +5,7 @@ const TagFilter = () => {
   const { selectedTags, setSelectedTags, books } = useStore();
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement | null>(null);
-
   const allTags = Array.from(new Set(books.flatMap((book) => book.tags)));
-
   const toggleTag = (tag: string) => {
     setSelectedTags((prev: string[]) => {
       return prev.includes(tag)
@@ -51,11 +49,11 @@ const TagFilter = () => {
               <button
                 key={tag}
                 onClick={() => toggleTag(tag)}
-                className={`m-1 px-3 py-1 rounded-md text-sm transition duration-300 ease-in-out ${
+                className={`m-1 px-3 py-1 rounded-md text-sm transition duration-300 ease-in-out  hover:bg-teal-600 hover:text-white ${
                   selectedTags.includes(tag)
                     ? "bg-teal-500 text-white"
                     : "bg-teal-50 text-teal-700"
-                } hover:bg-teal-600 hover:text-white`}
+                }`}
               >
                 {tag}
               </button>
